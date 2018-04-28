@@ -10,3 +10,23 @@
 #    invertir el orden de los elementos en un arreglo.
 
 a = [1,2,3,9,1,4,5,2,3,6,6]
+
+a.delete_at(10)
+a.each do |i|
+  puts i
+end
+
+a.delete_at(0)
+a.each do |i|
+  puts i
+end
+a.delete_at(4)
+a.each do |i|
+  puts i
+end
+a.each do |i|
+  if i.even?
+    a.delete_at(n)
+    puts i
+  end
+end

@@ -4,10 +4,10 @@
 def random
   result = [true, false].sample
 end
-
-if random == true
+val = random
+if val == true
   puts 'sí'
-elsif random == false
+elsif val == false
   puts 'no'
 else
   puts 'error'

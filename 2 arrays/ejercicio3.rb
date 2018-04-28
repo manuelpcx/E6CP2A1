@@ -5,3 +5,13 @@
  # 4. Crear un método que incrementa todos los elementos en una unidad y devuelva un arreglo nuevo.
 
 a = [1,2,3,9,1,4,5,2,3,6,6]
+def elim_par(a)
+  a.each do |i|
+    if (i % 2).zero?
+      a.delete_at(i)
+    end
+    puts a 
+  end
+end
+
+elim_par(a)
